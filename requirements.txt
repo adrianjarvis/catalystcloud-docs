@@ -1,6 +1,7 @@
-Sphinx>=4.2.0
+Sphinx>=7.2.0
 -e git+https://github.com/catalyst-cloud/sphinx-catalystcloud-theme.git#egg=sphinx_catalystcloud_theme
 doc8>=0.8.0
 sphinx-autobuild
-sphinx-tabs>=2.0.0
+sphinx-tabs>=3.4.5
 aafigure>=0.5
+sphinxcontrib-jquery>=4.1

@@ -29,12 +29,12 @@ sys.path.insert(0, os.path.abspath('.'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinx_tabs.tabs',
     'aafigure.sphinxext',
+    'sphinxcontrib.jquery',
     ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -337,7 +337,7 @@ epub_exclude_files = ['search.html']
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
+# intersphinx_mapping = {'http://docs.python.org/': None}
 
 # External links to ignore when doing a link check
 # Some are example links and others are links to our APIs that error when performing a get.
